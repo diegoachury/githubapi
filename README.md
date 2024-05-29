@@ -1,7 +1,8 @@
 ````markdown
 # GitHub Repositories API
 
-Este proyecto es una aplicación NestJS que se conecta a la API de GitHub para recuperar y mostrar los 10 repositorios más populares de un usuario dado, incluyendo una ruta específica para el usuario 'google'.
+Este proyecto es una aplicación NestJS que se conecta a la API de GitHub
+Mostrar los 10 proyectos top del user google
 
 ## Requisitos
 
@@ -37,6 +38,14 @@ npm run start:dev
 ```
 
 La aplicación estará disponible en `http://localhost:3000`.
+
+## Documentación de la API con Swagger
+
+Puedes consultar la documentación interactiva de la API y probar los endpoints utilizando Swagger UI. Simplemente navega a:
+
+```bash
+http://localhost:3000/api
+```
 
 ## Endpoints
 
